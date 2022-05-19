@@ -115,7 +115,6 @@ left=3truecm,right=2.5truecm]{geometry}
 
 %=---------------專題製作合可證明---------------------=%
 %\newpage
-\tableofcontents %目錄產生
 \input{certification.tex}
 
 %=------------------摘要----------------------=%
@@ -134,18 +133,17 @@ left=3truecm,right=2.5truecm]{geometry}
 %\newpage
 %\input{content.tex}
 %\begin{spacing}{2.5}
-%\renewcommand{\contentsname}{\centerline{\fontsize{18pt}{\baselineskip}\selectfont\textbf{目\quad 錄}}}
+\renewcommand{\contentsname}{\centerline{\fontsize{18pt}{\baselineskip}\selectfont\textbf{目\quad 錄}}}
 \tableofcontents %目錄產生
-\tableofcontents %目錄產生
-%\end{spacing}
+\end{spacing}
 
 %=------------------圖目錄----------------------=%
 %\newpage
 %\input{picture.tex}
-%\begin{spacing}{2.5}
-%\renewcommand{\listfigurename}{\centerline{\fontsize{18pt}{\baselineskip}%\selectfont\textbf{圖\quad 目\quad 錄 }}}
-%\listoffigures
-%\end{spacing}
+\begin{spacing}{2.5}
+\renewcommand{\listfigurename}{\centerline{\fontsize{18pt}{\baselineskip}\selectfont\textbf{圖\quad 目\quad 錄 }}}
+\listoffigures
+\end{spacing}
 
 %=------------------前言----------------------=%
 %\newpage
